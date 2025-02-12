@@ -1,82 +1,148 @@
 * {
-    /* Свойства для сброса начальных стилей элементов */
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
-body {}
+body {
+   font-family: "Inter", sans-serif;
+}
 
 header {
-    /* Стили для хедера */
+   /* Стили для хедера */
+   background: #2965F1;
+   padding: 23px 0;
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+   /* Стили для текста в хедере IT-INCUBATOR */
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 700;
 }
 
 .main-section {
-    /* Стили для первой секции */
+   /* Стили для первой секции */
+   background: #FAFAFF;
+   padding: 60px 0;
+   min-height: 1024px;
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+   /* Стили для заголовка в первой секции */
+   color: #303030;
+   font-size: 48px;
+   font-weight: 700;
+   margin-bottom: 20px;
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+   /* Стили для текста в первой секции */
+   color: #303030;
+   font-size: 18px;
+   font-weight: 400;
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+   /* Стили для изображения в первой секции */
+   max-width: 715px;
 }
 
 
 .about-section {
-    /* Стили для второй секции */
+   /* Стили для второй секции */
+   padding: 100px 0;
+   background-color: #FFF;
 }
 
 select {
-    /* Стили для выпадающего списка */
+   /* Стили для выпадающего списка */
+   width: 150px;
+   padding: 8px 0;
+   background: url("./assets/images/ep_arrow-down.svg") no-repeat right 12px top 50%;
+   appearance: none;
+   border-radius: 5px;
+   border: 1px solid rgba(48, 48, 48, 0.30);
 }
 
 .section-title {
-    /* Стили для заголовков во второй секции */
+   /* Стили для заголовков во второй секции */
+   color: #303030;
+   font-size: 24px;
+   font-weight: 700;
 }
 
 .frameworks-list {
-    /* Стили для маркированного списка во второй секции */
+   /* Стили для маркированного списка во второй секции */
+   list-style-image: url("assets/images/solar_map-arrow-up-bold.svg");
+   padding-left: 20px;
+   color: #303030;
+   font-size: 16px;
+   font-weight: 400;
 }
 
 .books-list {
-    /* Стили для нумерованного списка во второй секции */
+   /* Стили для нумерованного списка во второй секции */
+   padding-left: 20px;
+   color: #303030;
+   font-size: 16px;
+   font-weight: 400;
 }
 
 .label {
-    /* Стили для подписей чекбоксов */
+   /* Стили для подписей чекбоксов */
+   color: #303030;
+   font-size: 16px;
+   font-weight: 400;
 }
 
 .text-field {
-    /* Стили для односточного поля ввода текста */
+   /* Стили для односточного поля ввода текста */
+   max-width: 330px;
+   border-radius: 5px;
+   border: 1px solid rgba(48, 48, 48, 0.30);
+   background: rgba(255, 255, 255, 0.00);
+   padding: 9px;
+   font-family: inherit;
 }
 
 .btn {
-    /* Стили для кнопки */
+   /* Стили для кнопки */
+   border-radius: 5px;
+   background: #2965F1;
+   padding: 9px 27px;
+   color: #FFF;
+   font-weight: 700;
 }
 
 .line {
-    /* Стили для линии */
+   /* Стили для линии */
+   border: 1px solid rgba(48, 48, 48, 0.3);
+   margin-top: 60px;
+   margin-bottom: 60px;
 }
 
 table {
-    /* Стили для таблицы */
+   /* Стили для таблицы */
+   border-collapse: collapse;
 }
 
 th, td {
-    /* Стили для ячеек таблицы */
+   /* Стили для ячеек таблицы */
+   border: 1px solid #95A1BB;
+   padding: 12px 11px;
 }
 
 footer {
-    /* Стили для футера */
+   /* Стили для футера */
+   background: rgba(163, 167, 255, 0.30);
+   padding: 26px 0;
 }
 
 .footer-link {
-    /* Стили для футера */
+   /* Стили для футера */
+   color: #2965F1;
+   font-size: 14px;
+   font-weight: 400;
+   text-decoration: none;
 }
