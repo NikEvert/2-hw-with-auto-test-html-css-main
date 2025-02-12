@@ -6,6 +6,7 @@
 
 body {
    font-family: "Inter", sans-serif;
+   color: #303030;
 }
 
 header {
@@ -70,12 +71,13 @@ select {
    color: #303030;
    font-size: 24px;
    font-weight: 700;
+   margin-bottom: 25px;
 }
 
 .frameworks-list {
    /* Стили для маркированного списка во второй секции */
    list-style-image: url("assets/images/solar_map-arrow-up-bold.svg");
-   padding-left: 20px;
+   padding: 0 20px;
    color: #303030;
    font-size: 16px;
    font-weight: 400;
@@ -104,6 +106,9 @@ select {
    background: rgba(255, 255, 255, 0.00);
    padding: 9px;
    font-family: inherit;
+   color: rgba(48, 48, 48, 0.20);
+   font-size: 16px;
+   font-weight: 400;
 }
 
 .btn {
@@ -130,7 +135,9 @@ table {
 th, td {
    /* Стили для ячеек таблицы */
    border: 1px solid #95A1BB;
-   padding: 12px 11px;
+   padding: 12px 15px;
+   font-size: 14px;
+
 }
 
 footer {
